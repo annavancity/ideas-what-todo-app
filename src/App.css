@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1624719507903-7d8b41c7c9cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+h1 {
+  color:#F6F6F6 ;
+  background-color: #903749;
+  padding: 10px;
+  margin-top: 150px;
+  border: 2px solid #2B2E4A;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #e3d2c66c;
+}
+
+button {
+  cursor: pointer;
+  color:#2B2E4A ;
+  background-color: #F6F6F6;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid #903749;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #e3d2c66c;
+  font-size: 20px;
+}
+
+
